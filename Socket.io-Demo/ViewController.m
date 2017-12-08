@@ -27,7 +27,10 @@
 
 }
 
-
+-(void)setServiceUrl
+{
+    self.serviceUrl=@"localhost";
+}
 
 - (IBAction)login:(id)sender {
     UIAlertView * nameAlert = [[UIAlertView alloc] initWithTitle:@"Welcome to ChatRoom"
@@ -81,6 +84,15 @@
     [socketIO sendEvent:@"sendchat" withData:textField.text];
 }
 
+-(void)uitTest
+{
+    for(int i=0;i<100;i++)
+    {
+        NSString *test=[NSString stringWithFormat:@"%d",i];
+        [socketIO sendEvent:@"sendchat" withData:test];
+
+    }
+}
 
 
 - (void)didReceiveMemoryWarning {

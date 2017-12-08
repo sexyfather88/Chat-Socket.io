@@ -12,4 +12,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 @property (weak, nonatomic) IBOutlet UITextView *resultTextView;
 
+-(void)setServiceUrl;
+
+@property(nonatomic,strong) NSString *serviceUrl;
+
 @end

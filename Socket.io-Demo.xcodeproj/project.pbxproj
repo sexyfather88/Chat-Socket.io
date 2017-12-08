@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE093D341FDA64ED005ACC17 /* Socket_io_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE093D331FDA64ED005ACC17 /* Socket_io_DemoTests.m */; };
+		CE093D421FDA655C005ACC17 /* Socket_io_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE093D411FDA655C005ACC17 /* Socket_io_DemoUITests.m */; };
 		CE6A4BE81FD82BF600FE87AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A4BE71FD82BF600FE87AA /* Main.storyboard */; };
 		CE6FFAF71FD6D837007073BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FFAF61FD6D82D007073BB /* Security.framework */; };
 		CE6FFAF81FD6D841007073BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FFAF51FD6D821007073BB /* Foundation.framework */; };
@@ -20,22 +22,20 @@
 		CE96C6131FD454FD00F3F31B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96C6121FD454FD00F3F31B /* ViewController.m */; };
 		CE96C6181FD454FD00F3F31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE96C6171FD454FD00F3F31B /* Assets.xcassets */; };
 		CE96C61E1FD454FD00F3F31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96C61D1FD454FD00F3F31B /* main.m */; };
-		CE96C6281FD454FE00F3F31B /* Socket_io_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96C6271FD454FE00F3F31B /* Socket_io_DemoTests.m */; };
-		CE96C6331FD454FE00F3F31B /* Socket_io_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96C6321FD454FE00F3F31B /* Socket_io_DemoUITests.m */; };
 		CEBE26EB1FD994DF00A863CD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBE26EA1FD994DF00A863CD /* ViewController.xib */; };
 		CEBE26ED1FD9952800A863CD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBE26EC1FD9952800A863CD /* Launch Screen.storyboard */; };
 		EA8A7A86277F73D90A170938 /* Pods_Socket_io_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556BEFC88E4C439973E1EE2C /* Pods_Socket_io_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE96C6241FD454FE00F3F31B /* PBXContainerItemProxy */ = {
+		CE093D361FDA64ED005ACC17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE96C6031FD454FD00F3F31B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE96C60A1FD454FD00F3F31B;
 			remoteInfo = "Socket.io-Demo";
 		};
-		CE96C62F1FD454FE00F3F31B /* PBXContainerItemProxy */ = {
+		CE093D441FDA655C005ACC17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE96C6031FD454FD00F3F31B /* Project object */;
 			proxyType = 1;
@@ -48,6 +48,12 @@
 		556BEFC88E4C439973E1EE2C /* Pods_Socket_io_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Socket_io_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62ECBD58EFFA9C459ED2CF5F /* Pods-Socket.io-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socket.io-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Socket.io-Demo/Pods-Socket.io-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C0EC73895B776799B85F4562 /* Pods-Socket.io-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socket.io-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Socket.io-Demo/Pods-Socket.io-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CE093D311FDA64ED005ACC17 /* Socket.io-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket.io-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE093D331FDA64ED005ACC17 /* Socket_io_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket_io_DemoTests.m; sourceTree = "<group>"; };
+		CE093D351FDA64ED005ACC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE093D3F1FDA655C005ACC17 /* Socket.io-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket.io-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE093D411FDA655C005ACC17 /* Socket_io_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket_io_DemoUITests.m; sourceTree = "<group>"; };
+		CE093D431FDA655C005ACC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6A4BE71FD82BF600FE87AA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CE6FFAF11FD6D806007073BB /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6FFAF31FD6D80B007073BB /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,17 +79,25 @@
 		CE96C6171FD454FD00F3F31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE96C61C1FD454FD00F3F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE96C61D1FD454FD00F3F31B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE96C6231FD454FE00F3F31B /* Socket.io-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket.io-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE96C6271FD454FE00F3F31B /* Socket_io_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket_io_DemoTests.m; sourceTree = "<group>"; };
-		CE96C6291FD454FE00F3F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE96C62E1FD454FE00F3F31B /* Socket.io-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket.io-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE96C6321FD454FE00F3F31B /* Socket_io_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket_io_DemoUITests.m; sourceTree = "<group>"; };
-		CE96C6341FD454FE00F3F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEBE26EA1FD994DF00A863CD /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		CEBE26EC1FD9952800A863CD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE093D2E1FDA64ED005ACC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE093D3C1FDA655C005ACC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE96C6081FD454FD00F3F31B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,20 +106,6 @@
 				CE6FFAF81FD6D841007073BB /* Foundation.framework in Frameworks */,
 				CE6FFAF71FD6D837007073BB /* Security.framework in Frameworks */,
 				EA8A7A86277F73D90A170938 /* Pods_Socket_io_Demo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE96C6201FD454FE00F3F31B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE96C62B1FD454FE00F3F31B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +119,24 @@
 				C0EC73895B776799B85F4562 /* Pods-Socket.io-Demo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE093D321FDA64ED005ACC17 /* Socket.io-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE093D331FDA64ED005ACC17 /* Socket_io_DemoTests.m */,
+				CE093D351FDA64ED005ACC17 /* Info.plist */,
+			);
+			path = "Socket.io-DemoTests";
+			sourceTree = "<group>";
+		};
+		CE093D401FDA655C005ACC17 /* Socket.io-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE093D411FDA655C005ACC17 /* Socket_io_DemoUITests.m */,
+				CE093D431FDA655C005ACC17 /* Info.plist */,
+			);
+			path = "Socket.io-DemoUITests";
 			sourceTree = "<group>";
 		};
 		CE6FFAFA1FD6DA4D007073BB /* socket.io */ = {
@@ -143,8 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				CE96C60D1FD454FD00F3F31B /* Socket.io-Demo */,
-				CE96C6261FD454FE00F3F31B /* Socket.io-DemoTests */,
-				CE96C6311FD454FE00F3F31B /* Socket.io-DemoUITests */,
+				CE093D321FDA64ED005ACC17 /* Socket.io-DemoTests */,
+				CE093D401FDA655C005ACC17 /* Socket.io-DemoUITests */,
 				CE96C60C1FD454FD00F3F31B /* Products */,
 				11EA05A30981B00F4AF48B51 /* Pods */,
 				F049C6DD3D43F17B79E93F2F /* Frameworks */,
@@ -155,8 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				CE96C60B1FD454FD00F3F31B /* Socket.io-Demo.app */,
-				CE96C6231FD454FE00F3F31B /* Socket.io-DemoTests.xctest */,
-				CE96C62E1FD454FE00F3F31B /* Socket.io-DemoUITests.xctest */,
+				CE093D311FDA64ED005ACC17 /* Socket.io-DemoTests.xctest */,
+				CE093D3F1FDA655C005ACC17 /* Socket.io-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,24 +197,6 @@
 			path = "Socket.io-Demo";
 			sourceTree = "<group>";
 		};
-		CE96C6261FD454FE00F3F31B /* Socket.io-DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE96C6271FD454FE00F3F31B /* Socket_io_DemoTests.m */,
-				CE96C6291FD454FE00F3F31B /* Info.plist */,
-			);
-			path = "Socket.io-DemoTests";
-			sourceTree = "<group>";
-		};
-		CE96C6311FD454FE00F3F31B /* Socket.io-DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE96C6321FD454FE00F3F31B /* Socket_io_DemoUITests.m */,
-				CE96C6341FD454FE00F3F31B /* Info.plist */,
-			);
-			path = "Socket.io-DemoUITests";
-			sourceTree = "<group>";
-		};
 		F049C6DD3D43F17B79E93F2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +213,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE093D301FDA64ED005ACC17 /* Socket.io-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE093D381FDA64ED005ACC17 /* Build configuration list for PBXNativeTarget "Socket.io-DemoTests" */;
+			buildPhases = (
+				CE093D2D1FDA64ED005ACC17 /* Sources */,
+				CE093D2E1FDA64ED005ACC17 /* Frameworks */,
+				CE093D2F1FDA64ED005ACC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE093D371FDA64ED005ACC17 /* PBXTargetDependency */,
+			);
+			name = "Socket.io-DemoTests";
+			productName = "Socket.io-DemoTests";
+			productReference = CE093D311FDA64ED005ACC17 /* Socket.io-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE093D3E1FDA655C005ACC17 /* Socket.io-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE093D461FDA655C005ACC17 /* Build configuration list for PBXNativeTarget "Socket.io-DemoUITests" */;
+			buildPhases = (
+				CE093D3B1FDA655C005ACC17 /* Sources */,
+				CE093D3C1FDA655C005ACC17 /* Frameworks */,
+				CE093D3D1FDA655C005ACC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE093D451FDA655C005ACC17 /* PBXTargetDependency */,
+			);
+			name = "Socket.io-DemoUITests";
+			productName = "Socket.io-DemoUITests";
+			productReference = CE093D3F1FDA655C005ACC17 /* Socket.io-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CE96C60A1FD454FD00F3F31B /* Socket.io-Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE96C6371FD454FE00F3F31B /* Build configuration list for PBXNativeTarget "Socket.io-Demo" */;
@@ -233,42 +269,6 @@
 			productReference = CE96C60B1FD454FD00F3F31B /* Socket.io-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE96C6221FD454FE00F3F31B /* Socket.io-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE96C63A1FD454FE00F3F31B /* Build configuration list for PBXNativeTarget "Socket.io-DemoTests" */;
-			buildPhases = (
-				CE96C61F1FD454FE00F3F31B /* Sources */,
-				CE96C6201FD454FE00F3F31B /* Frameworks */,
-				CE96C6211FD454FE00F3F31B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE96C6251FD454FE00F3F31B /* PBXTargetDependency */,
-			);
-			name = "Socket.io-DemoTests";
-			productName = "Socket.io-DemoTests";
-			productReference = CE96C6231FD454FE00F3F31B /* Socket.io-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CE96C62D1FD454FE00F3F31B /* Socket.io-DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE96C63D1FD454FE00F3F31B /* Build configuration list for PBXNativeTarget "Socket.io-DemoUITests" */;
-			buildPhases = (
-				CE96C62A1FD454FE00F3F31B /* Sources */,
-				CE96C62B1FD454FE00F3F31B /* Frameworks */,
-				CE96C62C1FD454FE00F3F31B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE96C6301FD454FE00F3F31B /* PBXTargetDependency */,
-			);
-			name = "Socket.io-DemoUITests";
-			productName = "Socket.io-DemoUITests";
-			productReference = CE96C62E1FD454FE00F3F31B /* Socket.io-DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,19 +278,19 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Wilson;
 				TargetAttributes = {
+					CE093D301FDA64ED005ACC17 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE96C60A1FD454FD00F3F31B;
+					};
+					CE093D3E1FDA655C005ACC17 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE96C60A1FD454FD00F3F31B;
+					};
 					CE96C60A1FD454FD00F3F31B = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					CE96C6221FD454FE00F3F31B = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CE96C60A1FD454FD00F3F31B;
-					};
-					CE96C62D1FD454FE00F3F31B = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CE96C60A1FD454FD00F3F31B;
 					};
 				};
 			};
@@ -308,13 +308,27 @@
 			projectRoot = "";
 			targets = (
 				CE96C60A1FD454FD00F3F31B /* Socket.io-Demo */,
-				CE96C6221FD454FE00F3F31B /* Socket.io-DemoTests */,
-				CE96C62D1FD454FE00F3F31B /* Socket.io-DemoUITests */,
+				CE093D301FDA64ED005ACC17 /* Socket.io-DemoTests */,
+				CE093D3E1FDA655C005ACC17 /* Socket.io-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE093D2F1FDA64ED005ACC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE093D3D1FDA655C005ACC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE96C6091FD454FD00F3F31B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,20 +337,6 @@
 				CEBE26EB1FD994DF00A863CD /* ViewController.xib in Resources */,
 				CEBE26ED1FD9952800A863CD /* Launch Screen.storyboard in Resources */,
 				CE6A4BE81FD82BF600FE87AA /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE96C6211FD454FE00F3F31B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE96C62C1FD454FE00F3F31B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +397,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE093D2D1FDA64ED005ACC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE093D341FDA64ED005ACC17 /* Socket_io_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE093D3B1FDA655C005ACC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE093D421FDA655C005ACC17 /* Socket_io_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE96C6071FD454FD00F3F31B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,38 +428,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE96C61F1FD454FE00F3F31B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE96C6281FD454FE00F3F31B /* Socket_io_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE96C62A1FD454FE00F3F31B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE96C6331FD454FE00F3F31B /* Socket_io_DemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE96C6251FD454FE00F3F31B /* PBXTargetDependency */ = {
+		CE093D371FDA64ED005ACC17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE96C60A1FD454FD00F3F31B /* Socket.io-Demo */;
-			targetProxy = CE96C6241FD454FE00F3F31B /* PBXContainerItemProxy */;
+			targetProxy = CE093D361FDA64ED005ACC17 /* PBXContainerItemProxy */;
 		};
-		CE96C6301FD454FE00F3F31B /* PBXTargetDependency */ = {
+		CE093D451FDA655C005ACC17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE96C60A1FD454FD00F3F31B /* Socket.io-Demo */;
-			targetProxy = CE96C62F1FD454FE00F3F31B /* PBXContainerItemProxy */;
+			targetProxy = CE093D441FDA655C005ACC17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CE093D391FDA64ED005ACC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "Socket.io-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socket.io-Demo.app/Socket.io-Demo";
+			};
+			name = Debug;
+		};
+		CE093D3A1FDA64ED005ACC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "Socket.io-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socket.io-Demo.app/Socket.io-Demo";
+			};
+			name = Release;
+		};
+		CE093D471FDA655C005ACC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "Socket.io-DemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Socket.io-Demo";
+			};
+			name = Debug;
+		};
+		CE093D481FDA655C005ACC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "Socket.io-DemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Socket.io-Demo";
+			};
+			name = Release;
+		};
 		CE96C6351FD454FE00F3F31B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -580,71 +646,25 @@
 			};
 			name = Release;
 		};
-		CE96C63B1FD454FE00F3F31B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
-				INFOPLIST_FILE = "Socket.io-DemoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socket.io-Demo.app/Socket.io-Demo";
-			};
-			name = Debug;
-		};
-		CE96C63C1FD454FE00F3F31B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
-				INFOPLIST_FILE = "Socket.io-DemoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Socket.io-Demo.app/Socket.io-Demo";
-			};
-			name = Release;
-		};
-		CE96C63E1FD454FE00F3F31B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
-				INFOPLIST_FILE = "Socket.io-DemoUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Socket.io-Demo";
-			};
-			name = Debug;
-		};
-		CE96C63F1FD454FE00F3F31B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
-				INFOPLIST_FILE = "Socket.io-DemoUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.Socket-io-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Socket.io-Demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE093D381FDA64ED005ACC17 /* Build configuration list for PBXNativeTarget "Socket.io-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE093D391FDA64ED005ACC17 /* Debug */,
+				CE093D3A1FDA64ED005ACC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE093D461FDA655C005ACC17 /* Build configuration list for PBXNativeTarget "Socket.io-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE093D471FDA655C005ACC17 /* Debug */,
+				CE093D481FDA655C005ACC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CE96C6061FD454FD00F3F31B /* Build configuration list for PBXProject "Socket.io-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -659,24 +679,6 @@
 			buildConfigurations = (
 				CE96C6381FD454FE00F3F31B /* Debug */,
 				CE96C6391FD454FE00F3F31B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE96C63A1FD454FE00F3F31B /* Build configuration list for PBXNativeTarget "Socket.io-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE96C63B1FD454FE00F3F31B /* Debug */,
-				CE96C63C1FD454FE00F3F31B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE96C63D1FD454FE00F3F31B /* Build configuration list for PBXNativeTarget "Socket.io-DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE96C63E1FD454FE00F3F31B /* Debug */,
-				CE96C63F1FD454FE00F3F31B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
